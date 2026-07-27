@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dataset</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+
+    <h2>Employee Attrition</h2>
+
+    <a href="/home">🏠 Home</a>
+    <a href="/dataset">📊 Dataset</a>
+    <a href="/about">ℹ️ About Project</a>
+    <a href="/predict_page">🤖 Prediction</a>
+    <a href="/">🚪 Logout</a>
+
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+
+    <div class="container about-box">
+
+        <h1>Employee Dataset</h1>
+
+        <p class="about-text">
+            This project uses the IBM HR Employee Attrition Dataset to predict
+            whether an employee is likely to stay or leave the company.
+        </p>
+
+        <div class="about-cards">
+
+            <div class="about-card">
+                <h3>📁 Dataset Name</h3>
+                <p>IBM HR Employee Attrition Dataset</p>
+            </div>
+
+            <div class="about-card">
+                <h3>👥 Total Employees</h3>
+                <p>1470 Employees</p>
+            </div>
+
+            <div class="about-card">
+                <h3>🎯 Target Column</h3>
+                <p>Attrition (Yes / No)</p>
+            </div>
+
+            <div class="about-card">
+                <h3>📊 Features Used</h3>
+                <p>10 Features for Machine Learning Prediction</p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <h2>Features Used</h2>
+
+        <table class="summary-table">
+
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+
+            <tr><td>Age</td><td>Employee Age</td></tr>
+            <tr><td>DailyRate</td><td>Daily Salary Rate</td></tr>
+            <tr><td>DistanceFromHome</td><td>Distance from Home</td></tr>
+            <tr><td>Education</td><td>Education Level</td></tr>
+            <tr><td>EnvironmentSatisfaction</td><td>Work Environment Satisfaction</td></tr>
+            <tr><td>HourlyRate</td><td>Hourly Salary</td></tr>
+            <tr><td>JobInvolvement</td><td>Job Involvement</td></tr>
+            <tr><td>JobLevel</td><td>Job Level</td></tr>
+            <tr><td>JobSatisfaction</td><td>Job Satisfaction</td></tr>
+            <tr><td>MonthlyIncome</td><td>Monthly Income</td></tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
